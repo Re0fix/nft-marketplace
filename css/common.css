@@ -7,3 +7,9 @@
     --backgrond-gradient-first: linear-gradient(128.15deg, #A259FF 49.75%, #377DF7 136.56%);
     --backgrond-gradient-second: linear-gradient(100.92deg, #A259FF 13.57%, #FF6250 97.65%);
 }
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
