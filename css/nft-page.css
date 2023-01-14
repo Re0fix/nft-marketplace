@@ -1,7 +1,8 @@
-.header {}
+.main__background-img{
+		background-image: url(../img/nft-page/nft-page-background.svg);
+		background-size: cover;
+		background-position: 50% 50%;
+		min-height: 320px;
+      width: 375px;
+}
 
-.header__button {}
-
-.main {}
-
-.main__background-img {}

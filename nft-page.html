@@ -12,31 +12,49 @@
 <body>
 	<header class="header">
 		<p>NFT Marketplace</p>
-		<ul class="nav-bar">
+		<!--TODO burger menu-->
+		<ul class="header__nav-bar">
 			<li>
-				<p>Marketplace</p>
+				<a href="">
+					<p>Marketplace</p>
+				</a>
 			</li>
 			<li>
-				<p>Rankings</p>
+				<a href="">
+					<p>Rankings</p>
+				</a>
 			</li>
 			<li>
-				<p>Connet a wallet</p>
+				<a href="">
+					<p>Connet a wallet</p>
+				</a>
 			</li>
 		</ul>
 		<input class="header__button" type="button" value="Sign Up">
 	</header>
+
 	<main class="main">
-		<section class="background-img"></section>
+		<section class="main__background-img"></section>
 
-		<section class="content">
+		<section class="main__nft-content nft-content">
 
-			<div class="user-info">
-				<h1>The Orbitians</h1>
-				<p>Minted on Sep 30, 2022</p>
+			<h1>The Orbitians</h1>
+			<p>Minted on Sep 30, 2022</p>
+
+			<div class="nft-content__audition-timer">
+				<p>Audition ends in:</p>
+				<p>59:59:59</p>
+				<p>Hours Minutes Seconds</p>
+				<input type="button" value="Place Bid">
+			</div>
+
+			<div class="nft-content__artist">
 				<p>Created By</p>
-
 				<img src="" alt="User Icon">
 				<p>Orbitian</p>
+			</div>
+
+			<div class="nft-content__description">
 				<p>Description</p>
 				<p>The Orbitians
 					is a collection of 10,000 unique NFTs on the Ethereum blockchain,There are all sorts of beings in the NFT
@@ -50,7 +68,7 @@
 				</p>
 			</div>
 
-			<div class="details"></div>
+			<div class="nft-content__details"></div>
 			<p>Details</p>
 			<ul>
 				<li>
@@ -68,7 +86,7 @@
 			</ul>
 			</div>
 
-			<div class="tags">
+			<div class="nft-content__tags">
 				<ul>
 					<li><input type="button" value="ANIMATION"></li>
 					<li><input type="button" value="ILLUSTRATION"></li>
@@ -77,15 +95,50 @@
 				</ul>
 			</div>
 
-			<div class="timer">
-				<p>Audition ends in:</p>
-				<p>59:59:59</p>
-				<p>Hours Minutes Seconds</p>
-			</div>
-			
 		</section>
+
+		<section class="main__other-artist-nft other-nft">
+			<p>More from this artist</p>
+			<input class="other-nft__button" type="button" value="Go To Artist Page">
+			<!--TODO Use Bootstrap Cards for other-artist-nft-->
+		</section>
+
 	</main>
-	<footer></footer>
+	<footer class="footer">
+		<section class="footer__content">
+			<div>
+				<p>NFT Marketplace</p>
+				<p>NFT marketplace UI created with Anima for Figma.</p>
+				<p>Join our community(below icons)</p>
+				<ul>
+					<li><a href="#">Discord</a></li>
+					<li><a href="#"></a>YouTube</li>
+					<li><a href="#"></a>Twitter</li>
+					<li><a href="#"></a>Instagram</li>
+				</ul>
+			</div>
+
+			<div>
+				<p>Explore</p>
+				<ul>
+					<li><a href="#">Marketplace</a></li>
+					<li><a href="#">Rankings</a></li>
+					<li><a href="#">Connect a wallet</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<p>Join our weekly digest</p>
+				<p>Get exclusive promotions & updates straight to your inbox.</p>
+				<input type="email" name="" id="" placeholder="Input your email here">
+				<input type="submit" value="Subscribe">
+			</div>
+		</section>
+
+		<div class="footer__copyright">
+			<p>Ⓒ NFT Market. Use this template freely.</p>
+		</div>
+	</footer>
 </body>
 
 </html>
