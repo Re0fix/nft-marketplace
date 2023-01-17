@@ -1,9 +1,9 @@
 :root {
-    --main-color-black: #2B2B2B;
-    --main-color-gray: #3B3B3B;
-    --selected-tab-color: #858584;
-    --button-second-color: #ffffff;
-    --button-main-color: #A259FF;
+    --black: #2B2B2B;
+    --gray: #3B3B3B;
+    --light-gray: #858584;
+    --white: #ffffff;
+    --call-to-action: #A259FF;
     --backgrond-gradient-first: linear-gradient(128.15deg, #A259FF 49.75%, #377DF7 136.56%);
     --backgrond-gradient-second: linear-gradient(100.92deg, #A259FF 13.57%, #FF6250 97.65%);
 }
