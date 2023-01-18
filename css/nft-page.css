@@ -6,3 +6,11 @@
       width: 375px;
 }
 
+.nft-content__audition-timer{
+	background-color: #2B2B2B;
+}
+
+.artist__info{
+	display: flex;
+	flex-direction: row;
+}
