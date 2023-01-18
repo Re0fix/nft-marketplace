@@ -1,55 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;600&display=swap');
 
-h1, h2, h3, h4, h5 {
-    font-weight: 700;
-    text-transform: capitalize;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+h1,
+h2,
+h4 {
+	line-height: 110%;
 }
 
 h1 {
-    font-size: 67px;
-    line-height: 110%;
+	font-size: 67px;
 }
 
 h2 {
-    font-size: 51px;
-    line-height: 110%;
+	font-size: 51px;
 }
 
 h3 {
-    font-size: 38px;
-    line-height: 120%;
+	font-size: 38px;
+	line-height: 120%;
 }
 
 h4 {
-    font-size: 28px;
-    line-height: 110%;
+	font-size: 28px;
 }
 
-h5 {
-    font-size: 22px;
-    line-height: 160%;
-}
-
+h5,
 p {
-    font-size: 22px;
-    line-height: 160%;
+	font-size: 22px;
+	line-height: 160%;
 }
 
 a {
-    font-size: 16px;
-    line-height: 140%;
-    text-decoration: none;
-    font-weight: 600;
+	font-size: 16px;
+	line-height: 140%;
+	text-decoration: none;
+	font-weight: 600;
 }
 
-.content h2 {
-    font-family: 'Work Sans';
-}
-
-.content p {
-    font-family: 'Work Sans';
-}
-
-.content a {
-    font-family: 'Work Sans';
+h1,
+h2,
+p,
+a {
+	font-family: 'Work Sans';
 }

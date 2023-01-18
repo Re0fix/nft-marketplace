@@ -1,15 +1,37 @@
 :root {
-    --black: #2B2B2B;
-    --gray: #3B3B3B;
-    --light-gray: #858584;
-    --white: #ffffff;
-    --call-to-action: #A259FF;
-    --backgrond-gradient-first: linear-gradient(128.15deg, #A259FF 49.75%, #377DF7 136.56%);
-    --backgrond-gradient-second: linear-gradient(100.92deg, #A259FF 13.57%, #FF6250 97.65%);
+	--main-background-color: #2B2B2B;
+	--additional-background-color: #3B3B3B;
+	--text-img-background-color: #fff;
+	--additional-text-color: #858584;
+	--call-to-action: #A259FF;
+	--backgrond-gradient-first: linear-gradient(128.15deg, #A259FF 49.75%, #377DF7 136.56%);
+	--backgrond-gradient-second: linear-gradient(100.92deg, #A259FF 13.57%, #FF6250 97.65%);
 }
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+.content {
+	background-color: var(--main-background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+	color: var(--text-img-background-color);
+}
+
+a.btn {
+	background-color: var(--call-to-action);
+}
+
+section.create-account {
+	background-color: var(--main-background-color);
 }
